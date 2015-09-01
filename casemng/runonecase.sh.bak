@@ -1,0 +1,22 @@
+#path=`pwd`
+path="/home/map/apps/servertest/lighttpd/htdocs/mysite"
+LinePro=`grep -n  "Pro=" $path/casemng/common/runone.php|awk -F: '{print $1}'`
+LineClassName=`grep -n  "class=" $path/casemng/common/runone.php|awk -F: '{print $1}'`
+
+#reqStr="require_once \"$path/casemng/case/$1/Case_$2.php\";"
+claName="\$class=\"case_$2\";"
+proName="\$Pro=\"$1\";"
+
+sed -i ""$LineClassName"c"$claName"" $path/casemng/common/runone.php
+sed -i ""$LinePro"c"$proName"" $path/casemng/common/runone.php
+
+time=`date`
+echo "----------"$time"----------" >> $path/casemng/case/$1/Logs.txt
+#/home/map/php/bin/php $path/casemng/common/runone.php >>  $path/casemng/case/$1/Log.txt
+/home/map/php/bin/php $path/casemng/common/runone.php >  $path/casemng/case/$1/caseLog.txt
+cat $path/casemng/case/$1/caseLog.txt >> $path/casemng/case/$1/Logs.txt
+if [ `cat $path/casemng/case/$1/caseLog.txt |grep failed |wc -l` -gt 0 ]; then
+        echo "failed"        
+        exit 1;
+fi
+echo "passed"

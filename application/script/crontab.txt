@@ -1,0 +1,21 @@
+* 2 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd upopercase 1 oper 1
+* 2 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd upopercase 2 oper 2
+* 2 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd upopercase 3 oper 3
+*/10 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 1 oper
+*/10 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 2 oper
+*/10 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 3 oper
+*/30 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 2 jenkinsCase
+*/2 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 1 bphpuiqtfail
+*/2 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 1 bphpuiqtcost
+*/2 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 1 bphpuiqt
+*/10 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 1 fphpuipack
+*/10 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 1 violatefail
+*/10 * * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 1 violatecost
+*/30 13-17 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 2 proEffect
+*/30 13-17 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 3 proEffect
+*/30 8-12 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd upDataFromLog 2 proEffect
+*/30 8-12 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd upDataFromLog 3 proEffect
+15 7-23 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 2 performance > /tmp/log
+45 7-23 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd runcase 2 performance > /tmp/log
+*/30 7-23 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd upAlarmFromMonitor 2 > /tmp/moWebapplog
+*/30 7-23 * * * /home/map/php/bin/php /home/map/apps/mtplatform/lighttpd/htdocs/mtplatform/index.php cmd upAlarmFromMonitor 3 > /tmp/moUgclog

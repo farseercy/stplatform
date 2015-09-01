@@ -1,0 +1,156 @@
+----------Sat Sep 27 20:43:12 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:48:35 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:49:11 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:50:23 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:50:34 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:51:30 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:52:26 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:55:02 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 20:56:27 CST 2014----------
+
+-----------------start run case-------------------
+
+----------Sat Sep 27 21:04:56 CST 2014----------
+
+-----------------start run case-------------------
+
+﻿
+[line:16][1411823093]failed
+[1411823093]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:06:15 CST 2014----------
+
+-----------------start run case-------------------
+
+﻿
+[line:16][1411823093]failed
+[1411823093]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:06:19 CST 2014----------
+
+-----------------start run case-------------------
+
+﻿
+[line:16][1411823093]failed
+[1411823093]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:09:32 CST 2014----------
+
+-----------------start run case-------------------
+
+array(5) {
+  ["ver"]=>
+  string(1) "2"
+  ["pd"]=>
+  string(3) "map"
+  ["im"]=>
+  string(1) "2"
+  ["os"]=>
+  string(7) "android"
+  ["datafile"]=>
+  string(153) "@/home/map/apps/servertest/lighttpd/htdocs/mysite/casemng/case/offline/20130913100335_861133029533301_XOoGY2L6NDvVw_E3BUS2pe8lB2Lur+3aL7AaN8LHXakeM_2.dat"
+}
+﻿
+﻿
+[line:18][1411823093]failed
+[1411823093]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:09:35 CST 2014----------
+
+-----------------start run case-------------------
+
+array(5) {
+  ["ver"]=>
+  string(1) "2"
+  ["pd"]=>
+  string(3) "map"
+  ["im"]=>
+  string(1) "2"
+  ["os"]=>
+  string(7) "android"
+  ["datafile"]=>
+  string(153) "@/home/map/apps/servertest/lighttpd/htdocs/mysite/casemng/case/offline/20130913100335_861133029533301_XOoGY2L6NDvVw_E3BUS2pe8lB2Lur+3aL7AaN8LHXakeM_2.dat"
+}
+﻿
+﻿
+[line:18][1411823093]failed
+[1411823093]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:09:51 CST 2014----------
+
+-----------------start run case-------------------
+
+array(5) {
+  ["ver"]=>
+  string(1) "2"
+  ["pd"]=>
+  string(3) "map"
+  ["im"]=>
+  string(1) "2"
+  ["os"]=>
+  string(7) "android"
+  ["datafile"]=>
+  string(153) "@/home/map/apps/servertest/lighttpd/htdocs/mysite/casemng/case/offline/20130913100335_861133029533301_XOoGY2L6NDvVw_E3BUS2pe8lB2Lur+3aL7AaN8LHXakeM_2.dat"
+}
+﻿
+﻿
+[line:18][1411823093]failed
+[1411823093]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:14:41 CST 2014----------
+
+-----------------start run case-------------------
+
+﻿
+[line:18][1411823093]failed
+[1411823093]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:15:19 CST 2014----------
+
+-----------------start run case-------------------
+
+
+[line:16][1411823716]failed
+[1411823716]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
+----------Sat Sep 27 21:37:53 CST 2014----------
+
+-----------------start run case-------------------
+
+﻿
+[line:16][1411825051]failed
+[1411825051]	[uploadFile_校验] failed
+
+-----------------end run case-------------------
